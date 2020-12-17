@@ -1,0 +1,101 @@
+/* Backgourd & typo */
+body {
+
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Card & Picture */
+#Card {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-shadow: 3px 6px 55px -8px rgba(0, 0, 0, 0.49);
+}
+
+.c-backgroud {
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+}
+
+.Picture {
+    border-radius: 50%;
+    border: 7px solid white;
+    margin: 5px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 120px;
+
+}
+
+/* Informations */
+div h3 {
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+}
+
+#Age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+div p {
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.Info {
+    width: 100%;
+    height: 100px;
+    margin-top: 110px;
+}
+
+/* Stats */
+#Grid {
+    display: grid;
+    height: 90px;
+    grid-template-columns: 166px 166px 166px;
+
+    text-align: center;
+    border-top: 1px solid hsl(0, 0%, 82%);
+}
+
+h6 {
+    margin-top: 60px;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.Category {
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* Fotter */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 98vh;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
